@@ -6,9 +6,6 @@
 
 <struts>
     <package name="strutsBean" extends="struts-default" namespace="/">
-        <action name="register" class="cn.edu.zjut.action.UserAction">
-            <result name="success">/regSuccess.jsp</result>
-            <result name="fail">/regFail.jsp</result>
-        </action>
+
     </package>
 </struts>
